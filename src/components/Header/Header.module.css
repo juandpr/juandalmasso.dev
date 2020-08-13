@@ -1,0 +1,22 @@
+.header {
+  align-items: center;
+  backdrop-filter: blur(4px);
+  background-color: hsla(0,0%,99%,0.92);
+  display: flex;
+  flex-direction: row;
+  height: 8vh;
+  left: auto;
+  position: fixed;
+  right: auto;
+  top: 0px;
+  width: 100%;
+  z-index: 999;
+  justify-content: flex-end;
+  box-sizing: border-box;
+  padding: 0 40px 0 20px;
+}
+
+.about {
+  font-family: 'IBM Plex Mono', sans-serif;
+  font-weight: 700;
+}

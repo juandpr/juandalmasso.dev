@@ -1,0 +1,19 @@
+.article {
+    margin-bottom: 50px;
+    border-bottom: 1px solid lightgrey;
+}
+
+.title {
+
+}
+
+.intro {
+    font-style: italic;
+    margin: 0px 5% 5vh;
+}
+
+.date {
+    text-align: left;
+    color: hsla(0,0%,15%,0.7);
+    margin: 0px 5% 2vh;
+}
