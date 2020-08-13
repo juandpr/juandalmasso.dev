@@ -20,34 +20,37 @@ const getIconByType = (type) => {
 
 const About = () => {
   return (
-    <VerticalTimeline
-      className={styles.timeline}
-      style={{padding: 0}}
-    >
-      {
-        data && data.map((entry) => 
-          <VerticalTimelineElement
-            key={entry.place}
-            contentStyle={entry.contentStyle}
-            contentArrowStyle={entry.contentArrowStyle}
-            date={entry.date}
-            iconStyle={entry.iconStyle}
-            icon={getIconByType(entry.type)}
-          >
-            <h3 className="vertical-timeline-element-title">{entry.title}</h3>
-            <h4 className="vertical-timeline-element-subtitle">{entry.place}</h4>
-            <p>
-              {entry.description}
-            </p>
-          </VerticalTimelineElement>
-        )
-      }
-      <VerticalTimelineElement
-        icon={getIconByType('user')}
-        iconStyle={{ background: 'rgb(16, 204, 82)', color: '#fff' }}
+    <React.Fragment>
+      <h1 className={styles.title}>About my career</h1>
+      <VerticalTimeline
+        className={styles.timeline}
+        style={{padding: 0}}
       >
-      </VerticalTimelineElement>
-    </VerticalTimeline>
+        {
+          data && data.map((entry) => 
+            <VerticalTimelineElement
+              key={entry.place}
+              contentStyle={entry.contentStyle}
+              contentArrowStyle={entry.contentArrowStyle}
+              date={entry.date}
+              iconStyle={entry.iconStyle}
+              icon={getIconByType(entry.type)}
+            >
+              <h3 className="vertical-timeline-element-title">{entry.title}</h3>
+              <h4 className="vertical-timeline-element-subtitle">{entry.place}</h4>
+              <p>
+                {entry.description}
+              </p>
+            </VerticalTimelineElement>
+          )
+        }
+        <VerticalTimelineElement
+          icon={getIconByType('user')}
+          iconStyle={{ background: 'rgb(16, 204, 82)', color: '#fff' }}
+        >
+        </VerticalTimelineElement>
+      </VerticalTimeline>
+    </React.Fragment>
   )
 };
 
