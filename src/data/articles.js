@@ -1,14 +1,8 @@
 export default [
   {
-    title: 'Test article',
-    intro: 'This is a test article I wrote',
-    url: 'https://www.google.com',
-    date: 'March 2020'
-  },
-  {
-    title: 'Article number two',
-    intro: 'Loren Ipsum Dolor sit amet.',
-    url: 'https://www.google.com',
-    date: 'January 2019'
+    title: 'Creating a precise countdown with Vanilla JS',
+    intro: 'On a recent technical interview I had for a big tech company, in one of the steps of the process I was asked the following...',
+    url: 'https://medium.com/@juandpr/creating-a-precise-countdown-with-vanilla-js-cdc44c0483fa',
+    date: 'August 2020'
   }
 ];

@@ -11,12 +11,19 @@
   top: 0px;
   width: 100%;
   z-index: 999;
-  justify-content: flex-end;
   box-sizing: border-box;
   padding: 0 40px 0 20px;
 }
 
-.about {
+.headerLeft {
+  justify-content: flex-start;
+}
+
+.headerRight {
+  justify-content: flex-end;
+}
+
+.link {
   font-family: 'IBM Plex Mono', sans-serif;
   font-weight: 700;
   color: #000;

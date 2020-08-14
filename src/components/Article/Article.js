@@ -4,7 +4,9 @@ import styles from './Article.module.css';
 const Article = ({title, intro, date, url}) => {
   return (
     <article className={styles.article}>
-      <h3 className={styles.title}>{title}</h3>
+      <a className={styles.title} href={url} target="_blank" rel="noopener noreferrer">
+        <h3>{title}</h3>
+      </a>
       <div className={styles.intro}>
         {intro}
       </div>

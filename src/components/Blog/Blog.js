@@ -10,6 +10,7 @@ const Blog = () => {
     {
       data && data.map(entry => 
         <Article
+          key={entry.title}
           title={entry.title}
           intro={entry.intro}
           date={entry.date}

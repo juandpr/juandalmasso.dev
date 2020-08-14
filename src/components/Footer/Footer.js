@@ -21,7 +21,7 @@ const Footer = () => {
     <footer className={styles.footer}>
       {
         data && data.map(entry => (
-          <a className={styles.link} href={entry.url} title={entry.title} target="_blank" rel="noopener noreferrer">{getIconByType(entry.icon)}</a>
+          <a key={entry.title} className={styles.link} href={entry.url} title={entry.title} target="_blank" rel="noopener noreferrer">{getIconByType(entry.icon)}</a>
         ))
       }
     </footer>
