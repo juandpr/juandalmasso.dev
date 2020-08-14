@@ -2,14 +2,17 @@ import React from 'react';
 
 import Header from '../Header';
 import Footer from '../Footer';
+import styles from './Main.module.css';
 
 const Main = ({children}) => {
   return (
-    <div>
+    <React.Fragment>
       <Header/>
-      {children}
+      <div className={styles.main}>
+        {children}
+      </div>
       <Footer/>
-    </div>
+    </React.Fragment>
   )
 };
 
