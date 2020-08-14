@@ -12,7 +12,7 @@ My personal website.
 | -------------- | ------------------------------------------------------------ |
 | `npm install`  | Fetch dependencies and build binaries for any of the modules |
 | `npm start`    | Start the app on http://localhost:8000 and watch for changes |
-| `npm build`    | Create a production build in the `public` directory          |
+| `yarn build`   | Create a production build in the `build` directory           |
 
 ## Credits
 
