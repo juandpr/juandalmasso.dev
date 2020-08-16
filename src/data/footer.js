@@ -12,6 +12,6 @@ export default [
   {
     icon: 'medium',
     title: 'Medium',
-    url: 'https://medium.com/@j_dalmasso',
+    url: 'https://medium.com/@juandpr',
   }
 ];
