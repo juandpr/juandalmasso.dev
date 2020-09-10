@@ -1,7 +1,13 @@
 export default [
   {
+    title: 'Creating your own simplified implementation of JSON.stringify()',
+    intro: 'In this article, we are going to talk about how to create our own simplified version of this method, and learn how to improve it...',
+    url: 'https://medium.com/@juandpr/creating-your-own-simplified-implementation-of-json-stringify-ed8e50b9144a',
+    date: 'September 2020'
+  },
+  {
     title: 'A practical example of Javascript closures',
-    intro: 'Closures are something that many companies would like you to know before working for them, therefore, chances are they’ll ask you..',
+    intro: 'Closures are something that many companies would like you to know before working for them, therefore, chances are they’ll ask you...',
     url: 'https://medium.com/@juandpr/a-practical-example-of-javascript-closures-d41ce0a7207f',
     date: 'August 2020'
   },
