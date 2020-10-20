@@ -1,8 +1,18 @@
 export default [
   {
+    title: 'AWS Certified Solutions Architect – Associate',
+    place: 'Sydney, Australia',
+    description: 'Intended for individuals who perform a solutions architect role and have one or more years of hands-on experience designing available, cost-efficient, fault-tolerant, and scalable distributed systems on AWS.',
+    date: '2020',
+    type: 'study',
+    contentStyle: { },
+    contentArrowStyle: { },
+    iconStyle: { background: 'rgb(233, 30, 99)', color: '#fff' }
+  },
+  {
     title: 'Software Engineer',
     place: 'Learnosity. Sydney, Australia',
-    description: 'Frontend developer. Specialised in accessibility, math, internationalization and the creation of new feature for the Assessment stack.',
+    description: 'Frontend developer. Specialised in accessibility, math, internationalization and the creation of new features for the Assessment stack.',
     date: '2019 - present',
     type: 'work',
     contentStyle: { background: 'rgb(33, 150, 243)', color: '#fff' },
