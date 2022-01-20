@@ -1,5 +1,15 @@
 export default [
   {
+    title: 'Software Engineer',
+    place: 'Atlassian. Sydney, Australia',
+    description: 'Frontend developer, working in the Jira Ecosystem creating and improving solutions around the subproduct "Advanced Roadmaps".',
+    date: '2020 - present',
+    type: 'work',
+    contentStyle: { background: 'rgb(33, 150, 243)', color: '#fff' },
+    contentArrowStyle: { borderRight: '7px solid  rgb(33, 150, 243)' },
+    iconStyle: { background: 'rgb(33, 150, 243)', color: '#fff' }
+  },
+  {
     title: 'AWS Certified Solutions Architect – Associate',
     place: 'Sydney, Australia',
     description: 'Intended for individuals who perform a solutions architect role and have one or more years of hands-on experience designing available, cost-efficient, fault-tolerant, and scalable distributed systems on AWS.',
@@ -13,10 +23,10 @@ export default [
     title: 'Software Engineer',
     place: 'Learnosity. Sydney, Australia',
     description: 'Frontend developer. Specialised in accessibility, math, internationalization and the creation of new features for the Assessment stack.',
-    date: '2019 - present',
+    date: '2019 - 2020',
     type: 'work',
-    contentStyle: { background: 'rgb(33, 150, 243)', color: '#fff' },
-    contentArrowStyle: { borderRight: '7px solid  rgb(33, 150, 243)' },
+    contentStyle: { },
+    contentArrowStyle: { },
     iconStyle: { background: 'rgb(33, 150, 243)', color: '#fff' }
   },
   {
