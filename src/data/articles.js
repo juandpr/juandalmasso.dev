@@ -1,4 +1,4 @@
-export default [
+const articles = [
   {
     title: 'Improving the performance of the recursive Fibonacci implementation using closures in Javascript',
     intro: 'If you ever encountered yourself doing recursion, I’m sure you faced the Fibonacci sequence algorithm. In this article, we will develop a...',
@@ -24,3 +24,5 @@ export default [
     date: 'August 2020'
   }
 ];
+
+export default articles;

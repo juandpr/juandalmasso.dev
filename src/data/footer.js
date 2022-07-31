@@ -1,4 +1,4 @@
-export default [
+const footer = [
   {
     icon: 'github',
     title: 'GitHub',
@@ -15,3 +15,5 @@ export default [
     url: 'https://medium.com/@juandpr',
   }
 ];
+
+export default footer;

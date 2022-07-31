@@ -1,4 +1,4 @@
-export default [
+const about = [
   {
     title: 'Software Engineer',
     place: 'Atlassian. Sydney, Australia',
@@ -80,3 +80,5 @@ export default [
     iconStyle: { background: 'rgb(33, 150, 243)', color: '#fff' }
   }
 ];
+
+export default about;
